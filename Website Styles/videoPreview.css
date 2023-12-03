@@ -1,0 +1,72 @@
+.video-container
+            {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 15px;
+                row-gap: 30px;
+
+            }
+            .thumbnail-div
+            {
+                position: relative;
+            }
+
+           
+           
+            .container
+            {
+                display: inline-block;
+                /* width: 300px; */
+            }
+            .logo_and_info_container
+            {
+                display: grid;
+                grid-template-columns: 50px 200px; 
+            }
+            .Thumbnail-1
+            {
+                width: 100%; 
+                margin-bottom: 8px;
+                
+            }
+            .channel-logo
+            {
+                
+                width: 50px;
+                vertical-align: top;
+                
+            }
+            .image1
+            {
+                width: 30px;
+                border-radius: 50px;
+            }
+            
+            .video-title
+            {
+                margin-bottom: 8px;
+                width: 250px;
+            }
+            .Channel-owner
+            {
+                margin-bottom: 0px;
+            }
+
+            .Channel-owner,
+            .views
+            {
+                color: rgb(96,96,96);
+                font-size: 12px;
+            }
+            .time
+            {
+                position: absolute;
+                background-color: black;
+                color: white;
+                bottom: 20px;
+                right: 5px ;
+                font-weight: 500;
+                border-radius: 2px;
+                padding: 2px;
+
+            }
